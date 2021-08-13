@@ -3,17 +3,17 @@ ob_start();
 session_start();
 error_reporting(0);
 
-define("HOST", "localhost");
-define("USER", "root");
-define("PASSWORD", "");
-define("DB", "garage");
+// define("HOST", "localhost");
+// define("USER", "root");
+// define("PASSWORD", "");
+// define("DB", "garage");
 
 
 
-// define("HOST", "remotemysql.com");
-// define("USER", "D6xC6ccP7n");
-// define("PASSWORD", "JZfTTNZlyW");
-// define("DB", "D6xC6ccP7n");
+define("HOST", "remotemysql.com");
+define("USER", "D6xC6ccP7n");
+define("PASSWORD", "JZfTTNZlyW");
+define("DB", "D6xC6ccP7n");
 
 
 global $conn;
