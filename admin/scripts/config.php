@@ -8,6 +8,14 @@ define("USER", "root");
 define("PASSWORD", "");
 define("DB", "garage");
 
+
+
+// define("HOST", "remotemysql.com");
+// define("USER", "D6xC6ccP7n");
+// define("PASSWORD", "JZfTTNZlyW");
+// define("DB", "D6xC6ccP7n");
+
+
 global $conn;
 $conn = mysqli_connect(HOST, USER, PASSWORD, DB);
 
